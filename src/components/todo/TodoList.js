@@ -10,9 +10,9 @@ const TodoList = () => {
   return (
     <div>
       <div>
-        {list.map((todo) => (
+        {/* {list.map((todo) => (
           <TodoItem key={todo.id} {...todo} />
-        ))}
+        ))} */}
       </div>
       <div className="clear-wrapper">
         <button onClick={handleClearList} className="clear-button">
