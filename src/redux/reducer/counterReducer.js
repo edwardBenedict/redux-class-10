@@ -1,5 +1,5 @@
 const initialState = {
-  counter: 0,
+  counter: 10,
 };
 const counterReducer = (state = initialState, action) => {
   switch (action.type) {

@@ -1,6 +1,10 @@
 import "./Counter.css";
+import { useSelector, useDispatch } from "react-redux";
 
 const Counter = () => {
+  const {counter} = useSelector((state) => state.counterReducer)
+
+  console.log(counter)
   
   return (
     <div className="app">
