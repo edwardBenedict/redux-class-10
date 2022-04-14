@@ -25,7 +25,7 @@ export const clearTodoList = () => {
   };
 };
 
-export const toogle_todo = (payload) => {
+export const toggle_todo = (payload) => {
   return {
     type: TOGGLE_TODO,
     payload
