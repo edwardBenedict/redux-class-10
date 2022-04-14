@@ -8,6 +8,7 @@ const TodoItem = ({ completed, text, id }) => {
   const dispatch = useDispatch()
 
   const handleToggle = () => {
+    // dispatch({type: 'TOGGLE_TODO', payload:id})
     dispatch(toggle_todo(id))
   };
 
