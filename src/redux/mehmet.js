@@ -6,7 +6,4 @@ const reducers = combineReducers({
 //   todoReducer : todoReducer
 });
 
-export const combinedStores = () => {
-  const store = createStore(reducers);
-  return store;
-};
+export const myStore = createStore(reducers);
